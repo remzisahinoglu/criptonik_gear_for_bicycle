@@ -1,0 +1,46 @@
+
+ROM used: 374 (18%)
+          374 (18%) including unused fragments
+
+          1 Average locations per line
+          10 Average locations per statement
+
+RAM used: 18 (8%) at main() level
+          24 (11%) worst case
+
+Stack used: 1 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   94    38 100  servo_motor.c
+  222     0   0  C:\Program Files\PICC\devices\16F628A.h
+----- -----
+  316    38 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   6   1  1124 10.7  @delay_ms1
+0     20   5   1             @delay_us1
+0     49  13   6   262  5.9  ee_write_long
+0     33   9   7   262  5.9  ee_read_long
+0    247  66   1   871  6.3  MAIN
+
+Program metrics:
+    Functions               4
+    Statements              38
+    Comments                115
+    Volume (V)              3277
+    Difficilty (D)          28.0
+    Effort to implement (E) 91867
+    Time to implement (T)   1 hours, 25 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   14
+    Maintainability (MI)    144
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   370  1674  
+
+
+

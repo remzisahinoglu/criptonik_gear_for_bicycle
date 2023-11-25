@@ -1,0 +1,85 @@
+004     @WRITE_PROGRAM_MEMORY8.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020-023 bilgi
+024-027 eski_bilgi
+028-02B doluluk
+02C-02F periyod
+030-033 bosluk
+034-037 @MUL3232.P1
+034     main.@SCRATCH1
+035     @delay_us1.P1
+035     @delay_ms1.P2
+035     main.@SCRATCH2
+036     main.@SCRATCH3
+037     main.@SCRATCH4
+038-03B @MUL3232.P1
+038-03B @DIV3232.P2
+03C-03F @DIV3232.P1
+03C     @MUL3232.@SCRATCH1
+03D     @MUL3232.@SCRATCH2
+03E     @MUL3232.@SCRATCH3
+03F     @MUL3232.@SCRATCH4
+040     @MUL3232.@SCRATCH5
+040     @DIV3232.@SCRATCH1
+041     @DIV3232.@SCRATCH2
+042     @DIV3232.@SCRATCH3
+043     @DIV3232.@SCRATCH4
+044     @DIV3232.@SCRATCH5
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+0004  @delay_ms1
+0089  @delay_us1
+009D  main
+0019  @MUL3232
+0045  @DIV3232
+009D  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\ram\projeler\bisiklet vites mekanizmasý\elektronik\servo motor pot ile kontrol\
+
+Project Files:
+    pot ile kontrol 877.c
+    C:\Program Files (x86)\PICC\devices\16F877A.h
+
+Units:
+    D:\ram\projeler\bisiklet vites mekanizmasý\elektronik\servo motor pot ile kontrol\pot ile kontrol 877 (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      pot ile kontrol 877.err
+    Ext Symbols: pot ile kontrol 877.esym
+    INHX8:       pot ile kontrol 877.hex
+    Symbols:     pot ile kontrol 877.sym
+    List:        pot ile kontrol 877.lst
+    Debug/COFF:  pot ile kontrol 877.cof
+    Project:     pot ile kontrol 877.PJT
+    Call Tree:   pot ile kontrol 877.tre
+    Statistics:  pot ile kontrol 877.sta

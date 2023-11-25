@@ -1,0 +1,12 @@
+읕test1
+   읕MAIN  0/247  Ram=1
+      쳐??0??
+      쳐ee_read_long  0/33  Ram=7
+      쳐@delay_ms1  0/21  Ram=1
+      쳐ee_write_long  0/49  Ram=6
+      쳐@delay_ms1  0/21  Ram=1
+      쳐ee_write_long  0/49  Ram=6
+      쳐@delay_us1  0/20  Ram=1
+      쳐@delay_us1  0/20  Ram=1
+      쳐@delay_us1  0/20  Ram=1
+      읕@delay_us1  0/20  Ram=1

@@ -1,0 +1,72 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+005     PORTA
+006     PORTB
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020-023 periyod
+024-027 doluluk
+028-02B bosluk
+02C     @delay_ms1.P1
+02C     ee_write_long.addr
+02C     ee_read_long.addr
+02C     MAIN.@SCRATCH1
+02D     @delay_us1.P1
+02D-02E ee_write_long.longptr
+02D-02E ee_read_long.longptr
+02F     ee_read_long.edata
+02F     ee_write_long.edata
+030     ee_write_long.I
+030     ee_read_long.I
+031     ee_write_long.@SCRATCH1
+031     ee_read_long.@SCRATCH1
+032     ee_read_long.@SCRATCH2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09B-09C @READ_PROGRAM_MEMORY8.P1
+
+ROM Allocation:
+0025  @delay_ms1
+006B  @delay_us1
+003A  ee_write_long
+0004  ee_read_long
+007F  MAIN
+007F  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    D:\ram\projeler\bisiklet vites mekanizmasý\elektronik\servo motor buton ile kontrol 628\
+
+Project Files:
+    servo_motor.c
+    C:\Program Files\PICC\devices\16F628A.h
+
+Units:
+    D:\ram\projeler\bisiklet vites mekanizmasý\elektronik\servo motor buton ile kontrol 628\servo_motor (main)
+
+Compiler Settings:
+    Processor:      PIC16F628A
+    Pointer Size:   16
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      servo_motor.err
+    Ext Symbols: servo_motor.esym
+    INHX8:       servo_motor.hex
+    Symbols:     servo_motor.sym
+    List:        servo_motor.lst
+    Debug/COFF:  servo_motor.cof
+    Project:     servo_motor.PJT
+    Call Tree:   servo_motor.tre
+    Statistics:  servo_motor.sta
